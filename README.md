@@ -8,7 +8,7 @@ This is a test Android app that displays current price in USD for a few cryptocu
 * Presentation pattern: MVI (Elmslie)
 * UI: Compose
 * Network: Retrofit
-* Data persisence: Room
+* Data persistence: Room
 
 
 ### Screenshot
