@@ -31,7 +31,7 @@ jobs:
         uses: timheuer/base64-to-file@v1.2
         with:
           fileName: 'android_keystore.jks'
-          fileDir: '/home/runner/work/cryptocurrencies_test/cryptocurrencies_test/app/keystore/'
+          fileDir: '/home/runner/work/cryptocurrencies_test_app/cryptocurrencies_test_app/app/keystore/'
           encodedString: ${{ secrets.SIGNING_KEYSTORE }}
 
       - name: Test APK
